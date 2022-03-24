@@ -22,7 +22,6 @@ public class Calc {
             Scanner UserString = new Scanner(System.in, "Cp1251");
             String str = UserString.nextLine();
             if(str.contains("-") || str.contains("+") || str.contains("*") || str.contains("/")){
-
                 ArabInt.Summ(str);
                 RomInt.Summ(str);
             } else {exception(except3);}

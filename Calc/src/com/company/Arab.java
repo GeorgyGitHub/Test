@@ -15,6 +15,10 @@ public class Arab {
 
                     String[] massArb = str.split("-");
 
+                    if (str.contains("I") || str.contains("II") ||str.contains("III") ||str.contains("IV") ||str.contains("V") ||str.contains("VI") ||str.contains("VII") ||str.contains("VIII") ||str.contains("IX") ||str.contains("X")) {
+                        exception(except);
+                    }
+
                     if (parseInt(massArb[0]) > 10 || parseInt(massArb[1]) > 10) {
                         exception(except1);
                     }
@@ -25,6 +29,9 @@ public class Arab {
 
                 if (str.contains("+")) {
                     String[] massArb = str.split("\\+");
+                    if (str.contains("I") || str.contains("II") ||str.contains("III") ||str.contains("IV") ||str.contains("V") ||str.contains("VI") ||str.contains("VII") ||str.contains("VIII") ||str.contains("IX") ||str.contains("X")) {
+                        exception(except);
+                    }
 
                     if (parseInt(massArb[0]) > 10 || parseInt(massArb[1]) > 10) {
                         exception(except1);
@@ -36,6 +43,9 @@ public class Arab {
 
                 if (str.contains("/")) {
                     String[] massArb = str.split("/");
+                    if (str.contains("I") || str.contains("II") ||str.contains("III") ||str.contains("IV") ||str.contains("V") ||str.contains("VI") ||str.contains("VII") ||str.contains("VIII") ||str.contains("IX") ||str.contains("X")) {
+                        exception(except);
+                    }
 
                     if (parseInt(massArb[0]) > 10 || parseInt(massArb[1]) > 10) {
                         exception(except1);
@@ -47,6 +57,9 @@ public class Arab {
 
                 if (str.contains("*")) {
                     String[] massArb = str.split("\\*");
+                    if (str.contains("I") || str.contains("II") ||str.contains("III") ||str.contains("IV") ||str.contains("V") ||str.contains("VI") ||str.contains("VII") ||str.contains("VIII") ||str.contains("IX") ||str.contains("X")) {
+                        exception(except);
+                    }
 
                     if (parseInt(massArb[0]) > 10 || parseInt(massArb[1]) > 10) {
                         exception(except1);
